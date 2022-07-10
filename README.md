@@ -19,4 +19,4 @@
 ### Education:
 * General Assembly - Software Engineering Immersive Bootcamp
 * PicoCTF Cyber Security Training
-* Self Traingin, Love to Learn and Grow
+* Love to Learn and Grow
