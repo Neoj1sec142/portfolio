@@ -59,12 +59,10 @@ footer.card.main{
 }
 
 .sidebar{
-  /* position: fixed; */
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 25%;
   height: 100%;
-  background-color: #26262c;
+  padding: 10px;
+  background-color: #44444ac4;
   color: #ffffff;
   animation-name: bar-animation;
   animation-duration: 1000ms;
@@ -76,6 +74,14 @@ footer.card.main{
   to{
       transform: translateY(+0);
   }
+}
+
+button.btn.btn-outline-light.side{
+  border-radius: 20px;
+}
+button.btn.btn-outline-light.side:hover{
+  background-color: rgba(65, 65, 183, 0.882);
+  color: white;
 }
 
 a{
