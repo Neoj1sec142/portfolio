@@ -7,17 +7,24 @@ html{
 
 /* MAIN PAGE */
 
+h1.main{
+  margin-top: 2%;
+  color:rgba(65, 65, 183, 0.882);
+  text-align: center;
+  text-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 8;
+}
+
 div.card.main{
   position: absolute;
-  width: 60%;
+  width: 80%;
   height: 70%;
-  padding: 25px;
   padding-top: 0;
   padding-bottom: 0;
   /* top: 67.5px; */
-  margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
   border: 5px solid rgba(65, 65, 183, 0.882);
   box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
   z-index: 5;
@@ -41,8 +48,36 @@ footer.card.main{
   z-index: 5;
 }
 
-svg.icon{
-  
-  width: 5%;
+.sidebar{
+  /* position: fixed; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 25%;
   height: 100%;
+  background-color: #26262c;
+  color: #ffffff;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(227, 14, 14);
+}
+
+svg.icon{
+  width: 50%;
+  height: 100%;
+  animation-name: fall-animation;
+  animation-duration: 1000ms;
+}
+@keyframes fall-animation {
+  from{
+      transform: translateX(500px);
+  }
+  to{
+      transform: translateY(0);
+  }
 }
