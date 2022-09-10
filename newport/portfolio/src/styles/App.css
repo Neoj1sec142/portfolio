@@ -13,6 +13,16 @@ h1.main{
   text-align: center;
   text-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
   z-index: 8;
+  animation-name: head-animation;
+  animation-duration: 1000ms;
+}
+@keyframes head-animation {
+  from{
+      transform: translateY(+500px);
+  }
+  to{
+      transform: translateX(0);
+  }
 }
 
 div.card.main{
@@ -56,6 +66,16 @@ footer.card.main{
   height: 100%;
   background-color: #26262c;
   color: #ffffff;
+  animation-name: bar-animation;
+  animation-duration: 1000ms;
+}
+@keyframes bar-animation {
+  from{
+      transform: translateX(-500px);
+  }
+  to{
+      transform: translateY(+0);
+  }
 }
 
 a{
