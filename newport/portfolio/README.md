@@ -9,7 +9,7 @@
 ***     
 ## Page Diagrams:
 ![Main Page](./planning/main-page.png)      
-
+![Resume Skill Sheet](./planning/res-card.png)      
 ***     
 ## Technologies Used:
 * React
