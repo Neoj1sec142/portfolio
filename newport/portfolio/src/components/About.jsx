@@ -1,8 +1,9 @@
 import React from 'react'
+import '../styles/contactcard.css'
 
 const About = () => {
     return(
-        <div>Resume</div>
+        <div>About Page</div>
     )
 }
 
