@@ -13,8 +13,6 @@ import About from './pages/About'
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/projects' element={<Projects />} />
