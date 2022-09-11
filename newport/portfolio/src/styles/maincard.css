@@ -9,7 +9,8 @@ html{
 
 h1.main{
   margin-top: 2%;
-  color:rgba(65, 65, 183, 0.882);
+  background-color:rgba(65, 65, 183, 0.882);
+  color: rgb(210, 208, 208);
   text-align: center;
   text-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
   z-index: 8;
@@ -48,7 +49,6 @@ footer.card.main{
   flex-direction: row;
   justify-content: space-around;
   width: 60%;
-  padding: 25px;
   padding-top: 0;
   padding-bottom: 0;
   margin-left: 20%;
@@ -56,6 +56,9 @@ footer.card.main{
   border: 5px solid rgba(65, 65, 183, 0.882);
   box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
   z-index: 5;
+  background-image: linear-gradient(to left, #F5F7FA, #c4d3e9);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .sidebar{
@@ -94,7 +97,7 @@ a:hover{
 }
 
 svg.icon{
-  width: 50%;
+  width: 75%;
   height: 100%;
   animation-name: fall-animation;
   animation-duration: 1000ms;
@@ -106,4 +109,33 @@ svg.icon{
   to{
       transform: translateY(0);
   }
+}
+
+div.card.code{
+  width: 60%;
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+  margin-top: 5%;
+  border: 5px solid rgba(65, 65, 183, 0.882);
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 5;
+  background-image: linear-gradient(to left, #F5F7FA, #c4d3e9);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: code-animation;
+  animation-duration: 1000ms;
+}
+@keyframes code-animation {
+  from{
+      transform: translateX(500px);
+  }
+  to{
+      transform: translateY(0);
+  }
+}
+
+img#code{
+  width: 100%;
+  
 }

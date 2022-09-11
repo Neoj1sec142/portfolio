@@ -1,0 +1,25 @@
+div.res{
+    display:flex;
+}
+div.res-card{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 5px solid rgba(65, 65, 183, 0.882);
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 5;
+}
+embed#plugin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1#r{
+    color: white;
+    text-align: center;
+}

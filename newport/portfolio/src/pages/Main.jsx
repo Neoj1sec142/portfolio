@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/maincard.css'
 import {RiGithubFill, RiLinkedinBoxFill, RiTwitterFill} from 'react-icons/ri'
 import { useNavigate } from 'react-router-dom'
-
+const im = require('../assets/code.png')
 const Main = () => {
     const n = useNavigate()
     const navP = () => {n('/projects')}
@@ -13,6 +13,9 @@ const Main = () => {
         <div>
             <h1 className='main'>Mark Harmon Full Stack Software Developer</h1>
             <div className="card main">
+                <div className='card code'>
+                    <img src={im} alt="nopic" id="code"/>
+                </div>
                 <div className='sidebar btn-group-vertical'>
                     <br></br>
                     <button className='btn btn-outline-light side' onClick={()=>navP()}>Projects</button>
