@@ -21,9 +21,9 @@ const Contact = () => {
             </div>
             <br></br>
             <div id='about'>
-            <button className="primaryButton" onClick={() => setIsOpen(true)}>
-                About Me
-            </button>
+            {!isOpen
+            ? <button className="primaryButton" onClick={() => setIsOpen(true)}>About Me</button>
+            : null}
                 {isOpen && <Modal setIsOpen={setIsOpen} />}
             </div>
         </div>

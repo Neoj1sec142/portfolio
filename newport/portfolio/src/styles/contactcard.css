@@ -95,19 +95,25 @@ div#about{
 }
 
 button.primaryButton {
-    margin: 20px 10px;
+    margin-top: 2%;
+    margin-bottom: 5%; 
+    position: fixed;
+    margin-left: 40%;
     cursor: pointer;
     font-weight: 500;
     padding: 13px 25px;
     border-radius: 15px;
     font-size: 0.8rem;
     border: none;
-    color: white;
-    background: #185adb;
+    color: rgba(77, 77, 197, 0.882);
+    background-image: linear-gradient(to right, #F5F7FA, #c4d3e9);
     transition: all 0.25s ease;
 }
   
 button.primaryButton:hover {
     transform: translateY(-5px);
+    background-image: linear-gradient(to left, #F5F7FA, #c4d3e9);
+    color: rgba(65, 65, 183, 0.882);
+    border: 2px solid rgba(65, 65, 183, 0.882);
     box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
 }
