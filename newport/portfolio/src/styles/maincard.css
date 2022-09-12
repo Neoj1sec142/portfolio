@@ -145,5 +145,9 @@ div.card.code{
 
 img#code{
   width: 100%;
+  max-width: 400px;
+}
+div.card.code{
   
+  max-height: 90%;
 }

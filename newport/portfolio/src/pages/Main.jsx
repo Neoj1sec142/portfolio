@@ -22,8 +22,8 @@ const Main = () => {
                     <br></br>
                     <button className='btn btn-outline-light side' onClick={()=>navR()}>Resume</button>
                     <br></br>
-                    <button className='btn btn-outline-light side' onClick={()=>navA()}>About Me</button>
-                    <br></br>
+                    {/* <button className='btn btn-outline-light side' onClick={()=>navA()}>About Me</button>
+                    <br></br> */}
                     <button className='btn btn-outline-light side' onClick={()=>navC()}>Contact Info</button>
                     <br></br>
                 </div>
