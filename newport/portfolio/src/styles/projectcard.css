@@ -12,3 +12,11 @@ a#pro-link{
 div.card.det{
     padding: 20px;
 }
+button.btn.btn-outline-danger.pro-back{
+    margin-right: 40%;
+    margin-left: 40%;
+}
+div.card.pro{
+    background-image: linear-gradient(to left, #F5F7FA, #acb4c0);
+    opacity: 90%;
+}

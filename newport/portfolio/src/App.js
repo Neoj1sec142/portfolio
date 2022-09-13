@@ -9,6 +9,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import ProjectDetail from './components/ProjectDetail'
+
 const App = () => {
   return (
     <div className="App">

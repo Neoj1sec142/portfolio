@@ -1,13 +1,7 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import '../styles/projectcard.css'
-// title: '',
-// fav: 11,
-// languages: [],
-// frameworks: [],
-// img: require(),
-// description: '',
-// link: ''
+
 const ProjectDetail = () => {
     const {state} = useLocation()
     return(
@@ -15,7 +9,9 @@ const ProjectDetail = () => {
             <br></br>
             <div className='card det'>
                 <legend className='text-center'>{state.title}</legend>
+                <img src={state.img} alt='nopic'/>
                 <br></br>
+                <p className="text-center">{state.desc}</p>
                 <div className='row'>
                     <h3 className='text-center'>Technologies Used</h3>
                     <div className='col-sm'>
@@ -25,12 +21,13 @@ const ProjectDetail = () => {
                     </ul>))}
                     </div>
                     <div className='col-sm'>
-                    {state.langs.map((l, i) => (
+                    {state.fws.map((fw, i) => (
                     <ul className='list-group'>
-                        <li className='list-group-item' key={i}>{l}</li>
+                        <li className='list-group-item' key={i}>{fw}</li>
                     </ul>))}
                     </div>
-                    <br></br>
+                    <div><br></br></div>
+                    <p className="text-muted text-center">Check out the source <a href={state.link}>here</a></p>
                 </div>
                 <br></br>
             </div>

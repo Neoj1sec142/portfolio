@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/resumecard.css'
 const pdf = require("../assets/Mark_Harmon_Full_Stack_Developer.pdf")
+
 const Resume = () => {
     return(
         <div>

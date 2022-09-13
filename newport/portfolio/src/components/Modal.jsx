@@ -12,7 +12,6 @@ const Modal = ({ setIsOpen }) => {
                 <br></br>
                 <h5 className={styles.heading}>Hello and Thank You,</h5>
             </div>
-            
             <div className='modalContent'>
                 <p>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for taking the time to browse

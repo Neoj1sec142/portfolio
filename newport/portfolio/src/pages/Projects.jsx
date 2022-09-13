@@ -25,6 +25,8 @@ const Projects = () => {
                 <ProjectCard p={p} />
                 <br></br>
                 </div>))}
+                <a href="/"><button className='btn btn-outline-danger pro-back'>Back to Home</button></a>
+                <div><br></br></div>
             </div>
         )
     }

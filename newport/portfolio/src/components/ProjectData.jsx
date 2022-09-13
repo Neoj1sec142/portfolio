@@ -33,7 +33,7 @@ export let projectData = [
         fav: 3,
         languages: ['Python', 'SQL'],
         frameworks: ['MySQL', 'Tkinter'],
-        // img: require(),
+        img: require('../assets/new_project-1.png'),
         description: 'This is a desktop run Tkinter GUI application that utilizes MySQL connection to achieve full CRUD.',
         link: ''
     },
@@ -91,22 +91,22 @@ export let projectData = [
         description: 'This was a Flask built project utilizing Flasks socket.io module to achive a stable TCP connection that allows communication, admin priveledges, banning, and multiple connections.',
         link: ''
     },
-    {
-        title: '',
-        fav: 10,
-        languages: [],
-        frameworks: [],
-        // img: require(),
-        description: '',
-        link: ''
-    },
-    {
-        title: '',
-        fav: 11,
-        languages: [],
-        frameworks: [],
-        // img: require(),
-        description: '',
-        link: ''
-    }
+    // {
+    //     title: '',
+    //     fav: 10,
+    //     languages: [],
+    //     frameworks: [],
+    //     // img: require(),
+    //     description: '',
+    //     link: ''
+    // },
+    // {
+    //     title: '',
+    //     fav: 11,
+    //     languages: [],
+    //     frameworks: [],
+    //     // img: require(),
+    //     description: '',
+    //     link: ''
+    // }
 ];
