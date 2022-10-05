@@ -1,9 +1,0 @@
-html, div.App{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: linear-gradient(to right, #F5F7FA, #B8C6DB);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
