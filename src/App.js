@@ -103,7 +103,7 @@ const App = () => {
                       <div className="desc text-start">                                    
                         <p>For my solo capstone project at General Assemby I created a full stack social platform with JWT Auth, and full CRUD. Tech used: React, Bootstrap, Sequelize, Express, PostgreSQL, and JWT Authenication</p>
                       </div>
-                      <a className="btn btn-cta-secondary" rel="noreferrer" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank"><i className="fas fa-thumbs-up"></i> Back my project</a>
+                      <a className="btn btn-cta-secondary" rel="noreferrer" href="https://www.github.neoj1sec142/holicity/" target="_blank"><i className="fas fa-thumbs-up"></i> View Code </a>
                     </div>
 
                     <hr className="divider" />
@@ -139,24 +139,24 @@ const App = () => {
                     </div>
                               
                     <div className="item row">
-                      <a className="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" rel="noreferrer" target="_blank">
+                      <a className="col-md-4 col-12" href="#!" rel="noreferrer" target="_blank">
                       <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.png" alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
-                        <h3 className="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" rel="noreferrer" target="_blank">Nova Pro - Boootstrap Template for Mobile Startups</a></h3>
+                        <h3 className="title"><a href="#!" rel="noreferrer" target="_blank">Nova Pro - Boootstrap Template for Mobile Startups</a></h3>
                         <p className="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
-                        <p><a className="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" rel="noreferrer" target="_blank"><i className="fas fa-external-link-alt"></i>Find out more</a></p>
+                        <p><a className="more-link" href="#!" rel="noreferrer" target="_blank"><i className="fas fa-external-link-alt"></i>Find out more</a></p>
                       </div>                      
                     </div>
 
                     <div className="item row">
-                      <a className="col-md-4 col-12" rel="noreferrer" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
+                      <a className="col-md-4 col-12" rel="noreferrer" href="#!" target="_blank">
                       <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
-                        <h3 className="title"><a rel="noreferrer" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">DevStudio - Boootstrap Template for WebDev Agencies and Freelance Developers</a></h3>
+                        <h3 className="title"><a rel="noreferrer" href="#!" target="_blank">DevStudio - Boootstrap Template for WebDev Agencies and Freelance Developers</a></h3>
                         <p className="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
-                        <p><a className="more-link" rel="noreferrer" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                        <p><a className="more-link" rel="noreferrer" href="#!" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
                       </div>
                     </div>
                        
