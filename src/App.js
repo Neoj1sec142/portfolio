@@ -47,7 +47,7 @@ const App = () => {
           <div className="container" id="app-header-inner">     
             <div className="row justify-content-center text-center align-items-center m-2 border p-3">
               {/* <div className="col">          */}
-                <img className="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile" />
+                <img className="profile-image img-fluid float-start rounded-circle" src={require('./assets/port.png')} alt="profile" />
                 <div className="profile-content">
                   <h1 className="name">Mark Harmon</h1>
                   <h2 className="desc">Full Stack Developer</h2>   
@@ -189,56 +189,56 @@ const App = () => {
                       <div className="item">
                         <h3 className="level-title">Python <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Excels most with Python, it's become my second language."><i className="fas fa-info-circle"></i>Advanced</span></h3>
                         <div className="level-bar progress">
-									        <div className="progress-bar level-bar-inner" role="progressbar" style={{width: "76%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "76%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
 
                       <div className="item">
                         <h3 className="level-title">Django & Django REST <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Most of my work is mixed between python/django and react"><i className="fas fa-info-circle"></i>Pro</span></h3>
                         <div className="level-bar progress">
-									        <div className="progress-bar level-bar-inner" role="progressbar" style={{width: "86%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "86%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
 
                       <div className="item">
                         <h3 className="level-title">C# & ASP.NET <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Experience in C# and ASP.NET."><i className="fas fa-info-circle"></i>Intermediate</span></h3>
                         <div className="level-bar progress">
-									        <div className="progress-bar level-bar-inner" role="progressbar" style={{width: "76%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "76%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
                                 
                       <div className="item">
                         <h3 className="level-title">React &amp; Redux<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="I am adept at using React and comfortable with Redux."><i className="fas fa-info-circle"></i>Pro</span></h3>
                         <div className="level-bar progress">
-									        <div className="progress-bar level-bar-inner" role="progressbar" style={{width: "84%"}} aria-valuenow="74"  aria-valuemin="0" aria-valuemax="94"></div>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "84%"}} aria-valuenow="74"  aria-valuemin="0" aria-valuemax="94"></span>
 									      </div>
                       </div>
                                 
                       <div className="item">
                         <h3 className="level-title">HTML5, CSS, JavaScript &amp; Bootstrap<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="I am familiar with advance js frameworks and form validation with JS and HTML5 and flexbox and Grid on CSS."><i className="fas fa-info-circle"></i>Pro</span></h3>
                         <div className="level-bar progress">
-									        <div className="progress-bar level-bar-inner" role="progressbar" style={{width: "93%"}} aria-valuenow="83"  aria-valuemin="0" aria-valuemax="96"></div>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "93%"}} aria-valuenow="83"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
                                 
                       <div className="item">
                         <h3 className="level-title">SQL, PostgreSQL & SQLite<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="Most comfortable with SQLite and PostrgreSQL but and SQL I am confident in using."><i className="fas fa-info-circle"></i>Pro</span></h3>
                         <div className="level-bar progress">
-									        <div className="progress-bar level-bar-inner" role="progressbar" style={{width: "86%"}} aria-valuenow="76"  aria-valuemin="0" aria-valuemax="96"></div>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "86%"}} aria-valuenow="76"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
 
                       <div className="item">
                         <h3 className="level-title">noSQL MongoDB<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="Experience creating full stack applications"><i class="fas fa-info-circle"></i>Intermediate</span></h3>
                         <div className="level-bar progress">
-									        <div className="progress-bar level-bar-inner" role="progressbar" style={{width: "48%"}} aria-valuenow="76"  aria-valuemin="0" aria-valuemax="96"></div>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "48%"}} aria-valuenow="76"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
                                 
                       <div className="item">
-                        <h3 className="level-title">Linux &amp; Pentesting<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="PicoCTF and ethical pentesting learned by self on persoanl time."><i className="fas fa-info-circle"></i>Intermediate</span></h3>
+                        <h3 className="level-title">Information Security<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="PicoCTF and ethical pentesting learned by self on persoanl time."><i className="fas fa-info-circle"></i>Intermediate</span></h3>
                         <div className="level-bar progress">
-									        <div className="progress-bar level-bar-inner" role="progressbar" style={{width: "56%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "56%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
 
