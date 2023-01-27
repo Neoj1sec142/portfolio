@@ -50,7 +50,7 @@ const App = () => {
                 <img className="profile-image img-fluid float-start rounded-circle" src={require('./assets/port.png')} alt="profile" />
                 <div className="profile-content">
                   <h1 className="name">Mark Harmon</h1>
-                  <h2 className="desc">Full Stack Developer</h2>   
+                  <h2 className="desc">&lt;&#62;Full Stack Developer&lt;/&#62;</h2>   
                   <ul className="social list-inline">
                       <li className="list-inline-item"><a href="https://twitter.com/ManicNeo142"><i className="fab fa-twitter"></i></a></li>
                       <li className="list-inline-item"><a href="https://www.linkedin.com/in/markharmon142/"><i className="fab fa-linkedin-in"></i></a></li>
