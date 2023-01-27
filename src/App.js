@@ -92,35 +92,35 @@ const App = () => {
 
                     <div className="item featured text-center">   
                       <div className="featured-image has-ribbon">
-                        <a href="https://github.com/Neoj1sec142/" rel="noreferrer" target="_blank">
-                        <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.png" alt="project name" />
+                        <a href="https://github.com/Neoj1sec142/sun_realty" rel="noreferrer" target="_blank">
+                        <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/sun_listings.png")} alt="project name" />
                         </a>
                         <div className="ribbon">
                             <div className="text">New</div>
                         </div>
                       </div>
-                      <h3 className="title mb-3"><a href="https://holicity.herokuapp.com/" rel="noreferrer" target="_blank">Holicity - A Social Platform promoting a Greener Earth</a></h3>
+                      <h3 className="title mb-3"><a href="https://github.com/Neoj1sec142/sun_realty" rel="noreferrer" target="_blank">Sun Realty</a></h3>
                       <div className="desc text-start">                                    
-                        <p>For my solo capstone project at General Assemby I created a full stack social platform with JWT Auth, and full CRUD. Tech used: React, Bootstrap, Sequelize, Express, PostgreSQL, and JWT Authenication</p>
+                        <p>Real Estate Website Mock Up for Sun Realty - Full Stack Application<li>Tech Used: Python, Django, PostgreSQL, Django-REST, Pillow, JavaScript, React, React-Redux/Redux-Thunk, Node-SASS</li></p>
                       </div>
-                      <a className="btn btn-cta-secondary" rel="noreferrer" href="https://www.github.neoj1sec142/holicity/" target="_blank"><i className="fas fa-thumbs-up"></i> View Code </a>
+                      <a className="btn btn-cta-secondary" rel="noreferrer" href="https://github.com/Neoj1sec142/sun_realty" target="_blank"><i className="fas fa-thumbs-up"></i> View Code </a>
                     </div>
 
                     <hr className="divider" />
 
                     <div className="item row">
-                      <a className="col-md-4 col-12" href="https://github.com/Neoj1sec142/Foodle-Front" rel="noreferrer" target="_blank">
-                      <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png" alt="project name" />
+                      <a className="col-md-4 col-12" href="https://holicity.herokuapp.com/" rel="noreferrer" target="_blank">
+                      <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/holicity.png")} alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
-                        <h3 className="title"><a href="https://github.com/Neoj1sec142/Foodle-Front" rel="noreferrer" target="_blank">Foodle</a></h3>
-                        <p className="mb-2">For my third project at General Assembly I worked on a team to create a full stack Food Instagram Like Website With full CRUD capabilities, and JWT Auth. <li>Tech Used: React, Redux, PostgreSQL, JWT Auth, Express, Sequelize, and CSS. </li></p>
+                        <h3 className="title"><a href="https://www.github.neoj1sec142/holicity/" rel="noreferrer" target="_blank">Holicity - A Social Platform promoting a Greener Earth</a></h3>
+                        <p className="mb-2">For my solo capstone project at General Assemby I created a full stack social platform with JWT Auth, and full CRUD. <li>Tech used: React, Bootstrap, Sequelize, Express, PostgreSQL, and JWT Authenication </li></p>
                       </div>                          
                     </div>
                             
                     <div className="item row">
                       <a className="col-md-4 col-12" href="https://github.com/Neoj1sec142/django_blog" rel="noreferrer" target="_blank">
-                      <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
+                      <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/django_blog.png")} alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
                         <h3 className="title"><a href="https://github.com/Neoj1sec142/django_blog" rel="noreferrer" target="_blank">Django Blog</a></h3>
@@ -130,7 +130,7 @@ const App = () => {
                             
                     <div className="item row">
                       <a className="col-md-4 col-12" href="https://github.com/Neoj1sec142/task_gui" rel="noreferrer" target="_blank">
-                      <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/new_project-1.png" alt="project name" />
+                      <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/task.png")} alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
                         <h3 className="title"><a href="https://github.com/Neoj1sec142/task_gui" rel="noreferrer" target="_blank">Task Manager CRUD App</a></h3>
@@ -138,7 +138,7 @@ const App = () => {
                       </div>                      
                     </div>
                               
-                    <div className="item row">
+                    {/* <div className="item row">
                       <a className="col-md-4 col-12" href="#!" rel="noreferrer" target="_blank">
                       <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.png" alt="project name" />
                       </a>
@@ -158,7 +158,7 @@ const App = () => {
                         <p className="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
                         <p><a className="more-link" rel="noreferrer" href="#!" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
                       </div>
-                    </div>
+                    </div> */}
                        
                   </div>
                 </div>
@@ -194,37 +194,37 @@ const App = () => {
                       </div>
 
                       <div className="item">
-                        <h3 className="level-title">Django & Django REST <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Most of my work is mixed between python/django and react"><i className="fas fa-info-circle"></i>Pro</span></h3>
+                        <h3 className="level-title">Django & Django REST <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Most of my work is mixed between python/django and react"><i className="fas fa-info-circle"></i>Intermediate</span></h3>
                         <div className="level-bar progress">
-									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "86%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></span>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "56%"}} aria-valuenow="76"  aria-valuemin="0" aria-valuemax="76"></span>
 									      </div>
                       </div>
 
                       <div className="item">
-                        <h3 className="level-title">C# & ASP.NET <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Experience in C# and ASP.NET."><i className="fas fa-info-circle"></i>Intermediate</span></h3>
+                        <h3 className="level-title">C# & ASP.NET <span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Experience in C# and ASP.NET."><i className="fas fa-info-circle"></i>Intro</span></h3>
                         <div className="level-bar progress">
-									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "76%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></span>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "46%"}} aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
                                 
                       <div className="item">
-                        <h3 className="level-title">React &amp; Redux<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="I am adept at using React and comfortable with Redux."><i className="fas fa-info-circle"></i>Pro</span></h3>
+                        <h3 className="level-title">React &amp; Redux<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="I am adept at using React and comfortable with Redux."><i className="fas fa-info-circle"></i>Advanced</span></h3>
                         <div className="level-bar progress">
 									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "84%"}} aria-valuenow="74"  aria-valuemin="0" aria-valuemax="94"></span>
 									      </div>
                       </div>
                                 
                       <div className="item">
-                        <h3 className="level-title">HTML5, CSS, JavaScript &amp; Bootstrap<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="I am familiar with advance js frameworks and form validation with JS and HTML5 and flexbox and Grid on CSS."><i className="fas fa-info-circle"></i>Pro</span></h3>
+                        <h3 className="level-title">HTML5, CSS, JavaScript &amp; Bootstrap<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="I am familiar with advance js frameworks and form validation with JS and HTML5 and flexbox and Grid on CSS."><i className="fas fa-info-circle"></i>Advanced</span></h3>
                         <div className="level-bar progress">
-									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "93%"}} aria-valuenow="83"  aria-valuemin="0" aria-valuemax="96"></span>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "73%"}} aria-valuenow="83"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
                                 
                       <div className="item">
-                        <h3 className="level-title">SQL, PostgreSQL & SQLite<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="Most comfortable with SQLite and PostrgreSQL but and SQL I am confident in using."><i className="fas fa-info-circle"></i>Pro</span></h3>
+                        <h3 className="level-title">SQL, PostgreSQL & SQLite<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="Most comfortable with SQLite and PostrgreSQL but and SQL I am confident in using."><i className="fas fa-info-circle"></i>Advanced</span></h3>
                         <div className="level-bar progress">
-									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "86%"}} aria-valuenow="76"  aria-valuemin="0" aria-valuemax="96"></span>
+									        <span className="progress-bar level-bar-inner" role="progressbar" style={{width: "76%"}} aria-valuenow="76"  aria-valuemin="0" aria-valuemax="96"></span>
 									      </div>
                       </div>
 
