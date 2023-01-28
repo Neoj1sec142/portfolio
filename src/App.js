@@ -129,12 +129,12 @@ const App = () => {
                     </div>
                             
                     <div className="item row">
-                      <a className="col-md-4 col-12" href="https://github.com/Neoj1sec142/task_gui" rel="noreferrer" target="_blank">
-                      <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/task.png")} alt="project name" />
+                      <a className="col-md-4 col-12" href="https://github.com/Neoj1sec142/timemanager" rel="noreferrer" target="_blank">
+                      <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/bar.png")} alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
-                        <h3 className="title"><a href="https://github.com/Neoj1sec142/task_gui" rel="noreferrer" target="_blank">Task Manager CRUD App</a></h3>
-                        <p className="mb-2">My first project after General Assembly's Software Engineering Immersive I decided to create a python / MySQL task manager with tkinter to exapnd on python, OOP, and relational SQL databases.</p>
+                        <h3 className="title"><a href="https://github.com/Neoj1sec142/timemanager" rel="noreferrer" target="_blank">Coders Time Manger</a></h3>
+                        <p className="mb-2">A Full Stack application for time management visual aid for developers. <li>Tech used: Python, Django, Django-REST, SQLite, Bootstrap5, JavaScript, React, Redux-Thunk, HTML5 and CSS.</li> </p>
                       </div>                      
                     </div>
                               
