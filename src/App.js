@@ -294,6 +294,7 @@ const App = () => {
                       <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=yVm8PjWCvLg" target="_blank" rel="noreferrer">Avenged Sevenfold</a></li>
                       <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=47K_A88N-0s&list=RD47K_A88N-0s&start_radio=1" target="_blank" rel="noreferrer">Mike Love (Reggae - not the beach boys ... sry)</a></li>
                       <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=LzgiqLIRe30" target="_blank" rel="noreferrer">Cas Haley</a></li>
+                      <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=TiVIFMbwxOc&list=RDMMHRqSg2PrJpY&index=4" target="_blank" rel="noreferrer">Nightcore</a></li>
                     </ul>
                   </div>
                 </div>
