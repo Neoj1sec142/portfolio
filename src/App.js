@@ -138,24 +138,14 @@ const App = () => {
                       </div>                      
                     </div>
                               
-                    {/* <div className="item row">
-                      <a className="col-md-4 col-12" href="#!" rel="noreferrer" target="_blank">
-                      <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.png" alt="project name" />
-                      </a>
-                      <div className="desc col-md-8 col-12">
-                        <h3 className="title"><a href="#!" rel="noreferrer" target="_blank">Nova Pro - Boootstrap Template for Mobile Startups</a></h3>
-                        <p className="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
-                        <p><a className="more-link" href="#!" rel="noreferrer" target="_blank"><i className="fas fa-external-link-alt"></i>Find out more</a></p>
-                      </div>                      
-                    </div>
-
+                    {/* 
                     <div className="item row">
                       <a className="col-md-4 col-12" rel="noreferrer" href="#!" target="_blank">
                       <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
-                        <h3 className="title"><a rel="noreferrer" href="#!" target="_blank">DevStudio - Boootstrap Template for WebDev Agencies and Freelance Developers</a></h3>
-                        <p className="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+                        <h3 className="title"><a rel="noreferrer" href="#!" target="_blank"> ---Title ----</a></h3>
+                        <p className="mb-2"> You can put one of your secondary projects here.</p>
                         <p><a className="more-link" rel="noreferrer" href="#!" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
                       </div>
                     </div> */}
