@@ -92,29 +92,29 @@ const App = () => {
 
                     <div className="item featured text-center">   
                       <div className="featured-image has-ribbon">
-                        <a href="https://github.com/Neoj1sec142/sun_realty" rel="noreferrer" target="_blank">
-                        <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/sun_listings.png")} alt="project name" />
+                        <a href="https://github.com/Neoj1sec142/redux_ecommerce" rel="noreferrer" target="_blank">
+                        <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/reduxecomm.png")} alt="project name" />
                         </a>
                         <div className="ribbon">
                             <div className="text">New</div>
                         </div>
                       </div>
-                      <h3 className="title mb-3"><a href="https://github.com/Neoj1sec142/sun_realty" rel="noreferrer" target="_blank">Sun Realty</a></h3>
+                      <h3 className="title mb-3"><a href="https://github.com/Neoj1sec142/sun_realty" rel="noreferrer" target="_blank">ReduxCommerce</a></h3>
                       <div className="desc text-start">                                    
-                        <p>Real Estate Website Mock Up for Sun Realty - Full Stack Application<li>Tech Used: Python, Django, PostgreSQL, Django-REST, Pillow, JavaScript, React, React-Redux/Redux-Thunk, Node-SASS</li></p>
+                        <p>Redux Ecommerce Platform Mockup - Full Stack Application<li>Tech Used: Python, Django, SQLite, Django-REST, Pillow, JavaScript, React, React-Redux/Redux-Thunk, Stripe Payments, JWT Authentication, CSS/Bootstrap</li></p>
                       </div>
-                      <a className="btn btn-cta-secondary" rel="noreferrer" href="https://github.com/Neoj1sec142/sun_realty" target="_blank"><i className="fas fa-thumbs-up"></i> View Code </a>
+                      <a className="btn btn-cta-secondary" rel="noreferrer" href="https://github.com/Neoj1sec142/redux_ecommerce" target="_blank"><i className="fas fa-thumbs-up"></i> View Code </a>
                     </div>
 
                     <hr className="divider" />
 
                     <div className="item row">
-                      <a className="col-md-4 col-12" href="https://holicity.herokuapp.com/" rel="noreferrer" target="_blank">
-                      <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/holicity.png")} alt="project name" />
+                      <a className="col-md-4 col-12" href="https://github.com/Neoj1sec142/sun_realty" rel="noreferrer" target="_blank">
+                      <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/sun_listings.png")} alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
-                        <h3 className="title"><a href="https://www.github.neoj1sec142/holicity/" rel="noreferrer" target="_blank">Holicity - A Social Platform promoting a Greener Earth</a></h3>
-                        <p className="mb-2">For my solo capstone project at General Assemby I created a full stack social platform with JWT Auth, and full CRUD. <li>Tech used: React, Bootstrap, Sequelize, Express, PostgreSQL, and JWT Authenication </li></p>
+                        <h3 className="title"><a href="https://github.com/Neoj1sec142/sun_realty" rel="noreferrer" target="_blank">Sun Realty</a></h3>
+                        <p>Real Estate Website Mock Up for Sun Realty - Full Stack Application<li>Tech Used: Python, Django, PostgreSQL, Django-REST, Pillow, JavaScript, React, React-Redux/Redux-Thunk, Node-SASS</li></p>
                       </div>                          
                     </div>
                             
@@ -138,17 +138,16 @@ const App = () => {
                       </div>                      
                     </div>
                               
-                    {/* 
+                    
                     <div className="item row">
-                      <a className="col-md-4 col-12" rel="noreferrer" href="#!" target="_blank">
-                      <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
+                      <a className="col-md-4 col-12" href="https://holicity.herokuapp.com/" rel="noreferrer" target="_blank">
+                      <img className="img-fluid project-image rounded shadow-sm" src={require("./assets/projects/holicity.png")} alt="project name" />
                       </a>
                       <div className="desc col-md-8 col-12">
-                        <h3 className="title"><a rel="noreferrer" href="#!" target="_blank"> ---Title ----</a></h3>
-                        <p className="mb-2"> You can put one of your secondary projects here.</p>
-                        <p><a className="more-link" rel="noreferrer" href="#!" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                      </div>
-                    </div> */}
+                        <h3 className="title"><a href="https://www.github.neoj1sec142/holicity/" rel="noreferrer" target="_blank">Holicity - A Social Platform promoting a Greener Earth</a></h3>
+                        <p className="mb-2">For my solo capstone project at General Assemby I created a full stack social platform with JWT Auth, and full CRUD. <li>Tech used: React, Bootstrap, Sequelize, Express, PostgreSQL, and JWT Authenication </li></p>
+                      </div>                          
+                    </div>
                        
                   </div>
                 </div>
